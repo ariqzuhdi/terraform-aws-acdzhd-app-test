@@ -111,7 +111,7 @@ variable "mixed_instances_distribution" {
 }
 
 variable "asg_tags" {
-  type        = list(string)
+  type        = list
   description = "The list of tags to be attached to the ASG"
   default     = []
 }
